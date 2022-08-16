@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran&display=swap');
+
+/* --Reset-- */
+*,*::before, *::after{
+  box-sizing: border-box;
+}
+html{
+  font-size: 14px;
+}
+body{
+  font-family: 'Catamaran', sans-serif;
+  margin: 0;
+}
+h1,h2,i,p{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+img{
+  display: block;
+}
+/* --Header-- */
+nav{
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100px;
+  row-gap: 50px;
+  box-shadow: 0 5px 20px rgba(101, 100, 100, 0.258);
+  font-size: 23px;
+}
+
+li,a{
+  display: inline-block;
+  text-decoration: none;
+  padding: 0 22px 0 22px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+}
+.btn1{
+  background-color: rgb(40, 148, 112);
+  margin-right: 50px;
+  padding: 4px 25px 4px 25px;
+  border-radius: 15px;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+.contenedor{
+  /* width: 300px; */
+  height: 100vh;
+  background-color: rgba(201, 205, 204, 0.245);
+  margin: 60px 30px 0 30px;
+  border: 2px dashed gray;
+}
+.fa-cat{
+  position: absolute;
+  left: 30px;
+  font-size: 60px;
+  color: rgb(108, 103, 80);
+}
